@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+.navbar {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+  padding-inline: 10rem;
+  background-color: rgb(34, 34, 34);
+}
+
+.logo {
+  color: orange;
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+
+.nav-section-right {
+  display: flex;
+  gap: 1rem;
+
+  a {
+    color: grey;
+  }
+}
+
+.nav-section-right a:hover {
+  color: orange;
+}
