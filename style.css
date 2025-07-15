@@ -1,3 +1,53 @@
+aside {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.highlight-box, .recent-posts {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+.highlight-box {
+    background: #90caf9;
+    color: white;
+}
+
+.highlight-box button {
+    margin-top: 10px;
+    background: #222;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.recent-posts ul {
+    list-style: none;
+    margin-top: 10px;
+}
+
+.recent-posts li {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.recent-posts .icon {
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    color: white;
+    text-align: center;
+    border-radius: 50%;
+    font-size: 14px;
+}
 .foot-style {
   display: flex;
   justify-content: space-around;
