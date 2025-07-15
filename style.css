@@ -1,3 +1,15 @@
+.foot-style {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.foot-style a {
+  text-decoration: none;
+  margin: 5px;
+}
+.foot-nav a {
+  color: rgb(56, 56, 56);
+}
 * {
   margin: 0;
   padding: 0;
